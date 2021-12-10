@@ -1,0 +1,169 @@
+html, body, .externalContainer {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+}
+
+.externalContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.externalContainer header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.externalContainer .contentContainer{
+    flex: 1 1 100%;
+    display: flex;
+    
+
+}
+
+.contentContainer {
+    background-color: rgb(219, 214, 214);
+}
+
+
+.contentContainer .sidebar{
+
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 40px;
+}
+
+.predefined{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.predefined div{
+    
+    border: 2px solid rgb(214, 214, 214);
+    background-color: rgb(216, 216, 216);
+    border-radius: 20px;
+    padding: 10px;
+    animation: 0.2s;
+}
+
+.predefined div:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+
+.projects {
+    font-size: 30px;
+    color: orange;
+}
+
+.contentContainer .content{
+    width: 75%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+h2{
+    padding-left: 30px;
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    animation: 0.2s;
+}
+
+h3:hover{
+    color: orange;
+}
+
+
+.creaction{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 100%;
+}
+
+.submit{
+    width: 10%;
+    margin: 0 auto 20px;
+}
+
+
+
+.externalContainer footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.todos {
+    flex: 1 1 100%;
+    padding: 30px;
+}
+
+.todosDiv {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    border: 2px solid rgb(212, 194, 164);
+    animation: 0.2s;
+}
+
+.todosDiv:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+
+.x {
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+
+}
+
+.x:hover{
+    color: white;
+    border: 2px solid white
+}

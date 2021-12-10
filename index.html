@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="externalContainer">
+        <header> Todo List</header>
+        <div class="contentContainer">
+            <div class="sidebar">
+                <div class="predefined">
+                    <div class="Inbox">Inbox</div>
+                    <div class="Today">Today</div>
+                    <div class="ThisWeek">All</div>
+                </div>
+                <div class="projects">Projects</div>
+            </div>
+            <div class="content">
+                <div class="creaction">
+                    <h2>Create Todos</h2>
+                    <div class="title">
+                        <label for="title">Title:</label><br>
+                        <input type="text" id="title" name="title"><br>
+                    </div>
+                    <div class="description">
+                        <label for="description">Description:</label><br>
+                        <input type="text" id="description" name="description"><br>
+                    </div>
+                    <div class="dueDate">
+                        <label for="dueDate">Due Date:</label><br>
+                        <input type="date" id="dueDate" name="dueDate"><br>
+                    </div>
+                    <div class="priority">
+                        <label for="priority">Priority:</label><br>
+                        <input type="number" id="priority" name="priority" min="1" max="5"><br>
+                    </div>
+                    <div class="project">
+                        <label for="project">Project:</label><br>
+                        <input type="text" id="project" name="project"><br>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>Copyright © 2021 Nicola De Sanctis</footer>
+    </div>
+</body>
+</html>
